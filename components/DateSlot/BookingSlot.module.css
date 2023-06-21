@@ -3,8 +3,52 @@
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  margin: 20px;
   width: 880px;
-  height: 479px;
+  height: 570px;
   background: #f2f1f0;
   border-radius: 10px;
+}
+
+.change {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  gap: 10px;
+  width: 840px;
+  height: 64px;
+  background: #72959a;
+  border-radius: 11px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 7px;
+  width: 142px;
+  height: 54px;
+  border-radius: 5px;
+  color: #f2f1f0;
+}
+
+.booking button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 12px;
+  gap: 4px;
+  width: 89px;
+  height: 33px;
+  border: none;
+  outline: none;
+  background: #2c2c2c;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  color: #f2f1f0;
 }

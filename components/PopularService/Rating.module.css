@@ -1,0 +1,20 @@
+.rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 3px;
+  width: 260px;
+  height: 25px;
+}
+
+.star-rating .star {
+  color: gray;
+}
+
+.star-rating .star[data-rating="1"],
+.star-rating .star[data-rating="2"],
+.star-rating .star[data-rating="3"],
+.star-rating .star[data-rating="4"] {
+  color: orange;
+}
