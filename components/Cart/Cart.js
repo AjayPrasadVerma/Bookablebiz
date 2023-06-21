@@ -42,7 +42,7 @@ const Cart = () => {
       <button>Add to Cart</button>
       <div className={classes.totalPrice}>
         <div className={classes.number}>+65 9828 8938</div>
-        <button href="tocall:+65 9828 8938">Call</button>
+        <button href="tel://+917635097382">Call</button>
       </div>
     </div>
   );

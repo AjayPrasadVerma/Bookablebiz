@@ -11,6 +11,13 @@
   border: 0.5px solid #ea8933;
   box-shadow: 0px 6px 31px rgba(0, 0, 0, 0.24);
   border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.main:hover {
+  transform: translateY(-10px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px #eeaf79;
 }
 
 .main img {
@@ -105,4 +112,10 @@
   line-height: 130%;
   color: #f2f1f0;
   cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.item-info button:hover {
+  background: #713601;
+  color: #f2f1f0;
 }

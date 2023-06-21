@@ -73,6 +73,7 @@
   font-size: 16px;
   line-height: 130%;
   color: #f2f1f0;
+  transition: all 0.2s ease-out;
 }
 
 .number {
@@ -93,4 +94,16 @@
   font-size: 16px;
   line-height: 130%;
   color: #2c2c2c;
+  transition: all 0.2s ease-out;
+}
+
+.totalPrice button:hover {
+  background: #f88a2a;
+  border: none;
+  color: #f2f1f0;
+}
+
+.container button:hover {
+  opacity: 0.9;
+  color: #f2f1f0;
 }

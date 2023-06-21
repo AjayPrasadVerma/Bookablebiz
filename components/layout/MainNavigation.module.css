@@ -37,6 +37,13 @@
   height: 47px;
   border: 1px solid #f2f1f0;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover {
+  border-color: #ea8933;
+  color: #ea8933;
 }
 
 .btn div {
@@ -105,11 +112,16 @@
   line-height: 130%;
   color: #f2f1f0;
   cursor: pointer;
+  transition: all 0.2s ease-out;
 }
 
-/*
-.header a:hover,
-.header a:active,
-.header a.active {
-  color: white;
-} */
+.header nav button:hover {
+  background: #713601;
+  border: 1px solid #ea8933;
+  color: #f2f1f0;
+}
+
+.header a:hover {
+  /* color: white; */
+  color: #ea8933;
+}

@@ -19,16 +19,16 @@ function MainNavigation() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/new-meetup">About</Link>
+            <Link href="/">About</Link>
           </li>
           <li>
-            <Link href="/new-meetup">Contact</Link>
+            <Link href="/">Contact</Link>
           </li>
           <li>
-            <Link href="/new-meetup">Login</Link>
+            <Link href="/">Login</Link>
           </li>
           <li>
-            <Link href="/new-meetup">
+            <Link href="/">
               <CartIcon />
             </Link>
           </li>
