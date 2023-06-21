@@ -1,0 +1,22 @@
+.location {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  color: #f2f1f0;
+  font-style: normal;
+  padding: 2px;
+  gap: 5px;
+  width: 116px;
+  height: 31px;
+  margin-top: 20px;
+}
+
+.location p {
+  width: 95px;
+  height: 27px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: 0.025em;
+}

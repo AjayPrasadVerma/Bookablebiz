@@ -1,0 +1,26 @@
+.benefit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 20px;
+  gap: 10px;
+  width: 335px;
+  height: 22px;
+}
+
+.benefit > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 5px;
+  gap: 10px;
+  width: 59px;
+  height: 22px;
+  background: #f7f6f5;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #2c2c2c;
+}

@@ -1,0 +1,23 @@
+.three {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #ed510c;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px;
+  gap: 4px;
+  width: 568px;
+  height: 36px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 5px;
+  gap: 8px;
+
+  width: 104px;
+  height: 36px;
+}

@@ -1,0 +1,10 @@
+.slide {
+  width: 955px;
+  height: 630px;
+
+  background: url("https://s3-alpha-sig.figma.com/img/89e5/b18d/5ba88ea549cf722e8d83a5bd3cfcb8c3?Expires=1688342400&Signature=mr5HmZSncQz9lF0ibKZAAULWPZxTwrpendzGMHDW~flikhCOl5WCxRitnkiFx7Ltoe0GNm2o30N2lrUtAoNMp87muKES-LkS3cJu3BnuiYgMlFdXc7j58sV1~sl-d4xTzZvfBJ4gyNekIUjb1pj7FDGlM5sX7vFd0JP4Tzj04mCOSj-r6yJmuYNcAmRGYZ5JE~Nh9wVCCXkGTrlilIkf~8BeWYbL8StJNESXKg8p3L1~EQ5cYlRibiS4KVvdmQo9BKzk0VGEpnZAqhPLua34WuZyZQXgOAnrxl7eUhS~DxAQOq6DZDBzmhEzevv0Zdv7v142atduMusY0ZNV4eewkg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+
+  background-size: 100% 100%;
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+}
