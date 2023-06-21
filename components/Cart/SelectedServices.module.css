@@ -1,0 +1,67 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  width: 458px;
+  height: 227px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 341px;
+  height: 48px;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 308px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #72959a;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 3px 10px;
+  gap: 10px;
+  width: 458px;
+  height: 54px;
+}
+
+.title,
+.price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 111.1%;
+  color: #2c2c2c;
+}
+
+.date {
+  height: 22px;
+}
+.border {
+  height: 22px;
+}
+
+.time {
+  width: 138px;
+  height: 22px;
+}
+.duration {
+  width: 49px;
+  height: 22px;
+}
