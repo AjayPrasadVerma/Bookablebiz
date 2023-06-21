@@ -1,5 +1,6 @@
 import WeekDate from "./WeekDate";
 import classes from "./DateTimeNavigation.module.css";
+import TimeSlot from "./TimeSlot";
 
 const DateTimeNavigation = () => {
   const today = new Date();
@@ -15,7 +16,9 @@ const DateTimeNavigation = () => {
         <div>&gt;</div>
       </div>
       <h5 className="today">Choose slots</h5>
-      <div className={classes["date-container"]}></div>
+      <div className={classes["time-container"]}>
+        <TimeSlot />
+      </div>
     </>
   );
 };
